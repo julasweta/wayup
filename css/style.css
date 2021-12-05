@@ -38,15 +38,15 @@ h6 {
 }
 
 header {
-      height: 100vh;
       background-image: -moz-linear-gradient(121deg, rgb(55, 143, 217) 0%, rgb(78, 190, 254) 100%);
       background-image: -webkit-linear-gradient(121deg, rgb(55, 143, 217) 0%, rgb(78, 190, 254) 100%);
       background-image: -ms-linear-gradient(121deg, rgb(55, 143, 217) 0%, rgb(78, 190, 254) 100%);
       color: rgb(255, 255, 255);
+      padding-bottom: 120px;
 }
 
 .container {
-      width: 1024px;
+      width: 1170px;
       margin: 0 auto;
 }
 
@@ -56,30 +56,32 @@ header {
 
 .header__box {
       display: flex;
+      justify-content: space-between;
+      padding-top: 50px;
+}
+
+.header__offer {
+      width: 550px;
+      text-align: left;
+      padding-top: 90px;
 }
 
 h1 {
       display: flex;
       flex-direction: column;
-      width: 590px;
-      padding-top: 130px;
 }
 
-.h1-span {
-      width: 380px;
-
-}
 
 h1 span:last-child {
       font-size: 2em;
 }
 
 .header__offer p {
-      width: 408px;
       font-size: 16px;
       color: rgb(255, 255, 255);
       line-height: 1.688;
-
+      word-spacing: 2px;
+      width: 400px;
 
 }
 
@@ -125,7 +127,7 @@ button:hover {
 
 .future__box {
       padding-top: 100px;
-      padding-bottom: 128px;
+      padding-bottom: 120px;
       text-align: center;
 }
 
@@ -138,8 +140,6 @@ button:hover {
 .future__item {
       width: 280px;
       text-align: center;
-      padding-left: 15px;
-      padding-right: 15px;
       border-radius: 10px;
       transition: all 2s ease;
 }
@@ -176,14 +176,12 @@ h3 {
 
 .form {
       background-color: #ecf3f8;
-      height: 603px;
       text-align: center;
       padding-top: 100px;
+      padding-bottom: 105px;
 }
 
-.form__box {
-      margin: 0 auto;
-}
+
 
 form {
       display: flex;
