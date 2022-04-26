@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;800;900&family=Noticia+Text:ital@1&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap');
+@import url('menu.css');
 
 html {
       height: 100%;
@@ -37,6 +38,10 @@ h6 {
       margin: 0;
 }
 
+/* MENU */
+
+
+/* MAIN */
 header {
       background-image: -moz-linear-gradient(121deg, rgb(55, 143, 217) 0%, rgb(78, 190, 254) 100%);
       background-image: -webkit-linear-gradient(121deg, rgb(55, 143, 217) 0%, rgb(78, 190, 254) 100%);
@@ -100,7 +105,7 @@ h1 span:last-child {
       }
 }
 
-button {
+button{
       background-color: #f3cb28;
       border: none;
       font-size: 15px;
@@ -209,6 +214,9 @@ input, #countries{
       padding-left: 24px;
       margin: 0 auto;
 }
+#countries{
+      margin-top: 15px;
+}
 
 input:nth-child(n+2) {
       margin-top: 15px;
@@ -278,7 +286,9 @@ footer {
        .header__img img{
              width: 330px;
        }
-
+nav{
+      background-color: rgb(170, 214, 243);
+      z-index: 15;
 }
 
 /* 0- 576px */
@@ -290,4 +300,5 @@ footer {
       .form-btn {
             width: 80%;
       }
+}
 }

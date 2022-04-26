@@ -9,16 +9,29 @@ $(document).ready(function () {
       $("h2").attr("data-av-animation", "animate__animated animate__fadeInLeft")
 
 
-
-
       var options = {
             animateClass: 'animated', // for v3 or 'animate__animated' for v4
             animateThreshold: 100,
             scrollPollInterval: 20
       }
       $('.aniview').AniView(options);
-      console.log('privet')
+
+
+      /* Menu */
+
+  $('.fa-bars').click(function () {
+        $('nav').toggleClass('active');
+        $('.fa-mug-hot').show()
+        $(this).hide()
+  });
+
+      $('.fa-mug-hot').click(function () {
+              $('nav').toggleClass('active');
+            $('.fa-bars').show()
+            $(this).hide()
+      });
 
 
 
+  
 });
